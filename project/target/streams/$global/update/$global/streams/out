@@ -15653,7 +15653,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 5209ms :: artifacts dl 164ms
+[debug] :: resolution report :: resolve 4914ms :: artifacts dl 142ms
 [debug] 	report for default#simple-rest-scala-build;0.1-SNAPSHOT compile produced in C:\github\simple-rest-scala\project\target\resolution-cache\reports\default-simple-rest-scala-build-compile.xml
 [debug] 	report for default#simple-rest-scala-build;0.1-SNAPSHOT runtime produced in C:\github\simple-rest-scala\project\target\resolution-cache\reports\default-simple-rest-scala-build-runtime.xml
 [debug] 	report for default#simple-rest-scala-build;0.1-SNAPSHOT test produced in C:\github\simple-rest-scala\project\target\resolution-cache\reports\default-simple-rest-scala-build-test.xml
@@ -15667,5 +15667,5 @@
 [debug] 	report for default#simple-rest-scala-build;0.1-SNAPSHOT docs produced in C:\github\simple-rest-scala\project\target\resolution-cache\reports\default-simple-rest-scala-build-docs.xml
 [debug] 	report for default#simple-rest-scala-build;0.1-SNAPSHOT pom produced in C:\github\simple-rest-scala\project\target\resolution-cache\reports\default-simple-rest-scala-build-pom.xml
 [debug] 	report for default#simple-rest-scala-build;0.1-SNAPSHOT scala-tool produced in C:\github\simple-rest-scala\project\target\resolution-cache\reports\default-simple-rest-scala-build-scala-tool.xml
-[debug] 	resolve done (5209ms resolve - 164ms download)
+[debug] 	resolve done (4914ms resolve - 142ms download)
 [info] Done updating.

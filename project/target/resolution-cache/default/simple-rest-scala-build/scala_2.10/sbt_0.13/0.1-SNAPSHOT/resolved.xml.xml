@@ -4,7 +4,7 @@
 		module="simple-rest-scala-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150722140426"
+		publication="20150722143638"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
