@@ -1,0 +1,33 @@
+New log file opened at Wed Jul 22 14:04:22 CEST 2015 by 12372@ISATVIEWW026
+Taking next connection to: 62603
+New client attempting to connect on port: 62604-62603
+  Address = /10.100.252.35:62603
+This client on port 62604 has uuid aa128062-42a6-43c6-9b78-d3239c5c32cf configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-aa128062-42a6-43c6-9b78-d3239c5c32cf
+Taking next connection to: 62603
+New client attempting to connect on port: 62629-62603
+  Address = /10.100.252.35:62603
+Handshake exception on socket: 62629
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 62603
+New client attempting to connect on port: 62630-62603
+  Address = /10.100.252.35:62603
+This client on port 62630 has uuid 9a710a1c-257a-465a-812d-9162cd34194c configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-aa128062-42a6-43c6-9b78-d3239c5c32cf, play-fork-run-9a710a1c-257a-465a-812d-9162cd34194c
+Taking next connection to: 62603
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62603

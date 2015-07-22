@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\github\simple-rest-scala\conf\application.conf,C:\github\simple-rest-scala\target\scala-2.10\classes\application.conf)
+[debug] 	(C:\github\simple-rest-scala\conf\routes,C:\github\simple-rest-scala\target\scala-2.10\classes\routes)
